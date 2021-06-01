@@ -28,6 +28,16 @@ puts character_name[2]
 puts character_name[2,4]
 # will show index of the character you are looking for 
 puts character_name.index("a")
+# takes number converts to string, print side by side 
+num = 20
+puts ("my fav " + num.to_s)
+# absolute number 
+num = -20
+puts num.abs()
+# round number 
+# ruby differentiates between 7 and 7.0
+num = 20.12
+puts num.round()
 
 
 name = "Michela Iacobucci"
