@@ -31,3 +31,4 @@ while attempts < 4
     break if input == "n"
     attempts +=  1
 end
+puts "You have exceeded the number of attempts, please contact us for a new password" if attempts == 4
